@@ -1,0 +1,140 @@
+body {
+  background: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: relative;
+  min-height: 85vh;
+}
+
+/* ////////////////////////////// */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9dfcc;
+}
+
+.header h1 {
+  color: rgb(66, 60, 60);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 0 10px;
+}
+.header span {
+  font-size: 4rem;
+}
+
+/* ////////////////////////////// */
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(233, 194, 123);
+  padding: 2rem 0;
+}
+
+form select,
+input,
+button,
+select {
+  padding: 0.4rem 1.3rem;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.order {
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+form button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(29, 6, 50);
+}
+
+/* ////////////////////////////// */
+
+.list-container {
+  background: #cf975c;
+  width: 90%;
+  min-height: 23rem;
+  border-radius: 2rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem 2rem;
+  margin: 4rem auto;
+  color: aliceblue;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  overflow-y: scroll;
+}
+
+.list-item {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.list-item li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.list-item input {
+  height: 24px;
+  width: 24px;
+  background-color: #eee;
+}
+
+.list-item button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #1d0632;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* ////////////////////////////// */
+footer {
+  color: whitesmoke;
+  font-size: 0.7rem;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(50, 37, 6);
+  padding: 2rem 0;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: -8rem;
+  left: 0;
+  right: 0;
+}
+
+.flex-col {
+  display: flex;
+}
+
+.p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* ////////////////////////////// */
